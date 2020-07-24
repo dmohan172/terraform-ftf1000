@@ -1,5 +1,5 @@
 module "fg_aws" {
-  source = "./modules/fg_aw"
+  source = "./modules/fg_aws"
   aws_creds_file = var.aws_creds_file
   tag_name_prefix = var.tag_name_prefix
   region = var.region
