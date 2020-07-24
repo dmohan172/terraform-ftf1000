@@ -18,31 +18,31 @@ variable "tag_name_prefix" {
 }
 variable "vpc_cidr_block" {
   description = "VPC Global IPv4 Block"
-  default = "10.0.0.0/16"
+  default = "10.2.0.0/16"
 }
 variable "subnet1_block" {
-  default = "10.0.101.0/24"
+  default = "10.2.101.0/24"
 }
 variable "subnet1_ip_gw" {
-  default = "10.0.101.1"
+  default = "10.2.101.1"
 }
 variable "subnet1_ip_fg1" {
-  default = "10.0.101.5"
+  default = "10.2.101.5"
 }
 variable "subnet2_block" {
-  default = "10.0.102.0/24"
+  default = "10.2.102.0/24"
 }
 variable "subnet2_ip_gw" {
-  default = "10.0.102.1"
+  default = "10.2.102.1"
 }
 variable "subnet2_ip_fg1" {
-  default = "10.0.102.5"
+  default = "10.2.102.5"
 }
 variable "subnet3_block" {
-  default = "10.0.200.0/24"
+  default = "10.2.200.0/24"
 }
 variable "subnet3_ip_fg1" {
-  default = "10.0.200.5"
+  default = "10.2.200.5"
 }
 variable "fg1_license" { default = "licenses/fg1.lic" }
 variable "instance_type" { default = "c5.xlarge" }
